@@ -25,7 +25,7 @@ pub fn initialize() -> i32 {
 
 // Fill the blanks in the code to make it compile
 pub fn mutable() -> i32 {
-    let  mut x = 1;
+    let  mut x: i32 = 1;
     x += 2;
     x
 }
