@@ -9,13 +9,14 @@
 // }
 
 // Fix the error below with least amount of modification
-pub fn scope() {
+pub fn scope() -> (i32, i32) {
     let x: i32 = 10;
     let y: i32 = 5;
     {
-        println!("The value of x is {} and value of y is {}", x, y);
+        [x, y];
     }
-    println!("The value of x is {} and value of y is {}", x, y);
+    [x, y];
+    return (x, y);
 }
 
 // // Fix the error with the use of define_x
@@ -28,8 +29,9 @@ pub fn scope() {
 // }
 
 // Fix the error with the use of define_x
-pub fn define() {
-    define_x();
+pub fn define() -> &'static str {
+    let x: &str = define_x();
+    x
 }
 
 fn define_x() -> &'static str {
@@ -42,12 +44,12 @@ mod tests {
 
     #[test]
     fn test_scope() {
-        assert_eq!(super::scope(), ());
+        assert_eq!(super::scope(), (10, 5));
     }
 
     #[test]
     fn test_define() {
-        assert_eq!(super::define(), ());
+        assert_eq!(super::define(), "hello");
     }
 
     #[test]
