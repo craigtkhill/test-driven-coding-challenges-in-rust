@@ -42,14 +42,13 @@ pub fn shadow() -> i32 {
 
 // Remove a line in the code to make it compile
 pub fn rebind() -> (i32, &'static str) {
-    let mut x: i32 = 1;
-    x = 7;
+    let mut x: i32 = 7;
     // Shadowing and re-binding
-    let x = x;
+    x += 3;
 
-    let _y = 4;
+    let _y: i32 = 4;
     // Shadowing
-    let y = "I can also be bound to text!";
+    let y: &str = "I can also be bound to text!";
     return (x, y);
 }
 
@@ -65,6 +64,6 @@ mod tests {
 
     #[test]
     fn test_rebind() {
-        assert_eq!(rebind(), (7, "I can also be bound to text!"));
+        assert_eq!(rebind(), (10, "I can also be bound to text!"));
     }
 }
