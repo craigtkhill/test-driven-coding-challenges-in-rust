@@ -4,9 +4,10 @@
 
 // // Warning: unused variable: `x`
 
+#[allow(unused_variables)]
 pub fn unused_variable() -> i32 {
-    let x: i32 = 1;
-    return x;
+    let _x: i32 = 1;
+    1
 }
 
 // Warning: unused variable: `x`
