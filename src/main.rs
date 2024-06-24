@@ -8,5 +8,6 @@ fn main() {
     scope::scope();
     scope::define();
     shadowing::shadow();
+    shadowing::rebind();
     println!("Success!");
 }

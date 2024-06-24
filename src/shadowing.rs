@@ -25,12 +25,46 @@ pub fn shadow() -> i32 {
     x
 }
 
+// // Remove a line in the code to make it compile
+// fn main() {
+//     let mut x: i32 = 1;
+//     x = 7;
+//     // Shadowing and re-binding
+//     let x = x;
+//     x += 3;
+
+//     let y = 4;
+//     // Shadowing
+//     let y = "I can also be bound to text!";
+
+//     println!("Success!");
+// }
+
+// Remove a line in the code to make it compile
+pub fn rebind() -> (i32, &'static str) {
+    let mut x: i32 = 1;
+    x = 7;
+    // Shadowing and re-binding
+    let x = x;
+
+    let _y = 4;
+    // Shadowing
+    let y = "I can also be bound to text!";
+    return (x, y);
+}
+
 #[cfg(test)]
 mod tests {
+    use super::rebind;
     use super::shadow;
 
     #[test]
     fn test_shadow() {
         assert_eq!(shadow(), 42);
+    }
+
+    #[test]
+    fn test_rebind() {
+        assert_eq!(rebind(), (7, "I can also be bound to text!"));
     }
 }
