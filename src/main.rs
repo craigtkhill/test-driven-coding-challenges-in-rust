@@ -1,6 +1,7 @@
 mod binding_and_mutability;
 mod scope;
 mod shadowing;
+mod unused_variables;
 
 fn main() {
     binding_and_mutability::initialize();
@@ -9,5 +10,6 @@ fn main() {
     scope::define();
     shadowing::shadow();
     shadowing::rebind();
+    unused_variables::unused_variable();
     println!("Success!");
 }
