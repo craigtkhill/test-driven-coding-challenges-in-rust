@@ -7,4 +7,5 @@ pub mod is_same_num;
 pub mod less_than_or_equal_to_zero;
 pub mod next_edge;
 pub mod return_true;
+pub mod reverse_bool;
 pub mod squared;
