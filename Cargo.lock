@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "test-driven-data-structures-and-algorithms-in-rust"
+name = "test-driven-coding-challenges-in-rust"
 version = "0.1.0"
