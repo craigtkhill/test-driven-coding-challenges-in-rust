@@ -1,6 +1,5 @@
 pub fn less_than_or_equal_to_zero(num: i32) -> bool {
-    // TODO: Implement this function to make the tests pass
-    todo!() // This will cause the tests to fail until you implement it
+    num <= 0
 }
 
 #[cfg(test)]
