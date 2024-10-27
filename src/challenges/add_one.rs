@@ -1,6 +1,5 @@
 pub fn addition(num: i32) -> i32 {
-    // TODO: Implement this function to make the tests pass
-    todo!() // This will cause the tests to fail until you implement it
+    num + 1
 }
 
 #[cfg(test)]
