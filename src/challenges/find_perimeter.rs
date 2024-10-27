@@ -1,6 +1,5 @@
 pub fn find_perimeter(length: i32, width: i32) -> i32 {
-    // TODO: Implement this function to make the tests pass
-    todo!() // This will cause the tests to fail until you implement it
+    2 * (length + width)
 }
 
 #[cfg(test)]
