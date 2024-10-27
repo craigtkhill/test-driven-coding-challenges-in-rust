@@ -1,6 +1,5 @@
 pub fn is_same_num(a: i32, b: i32) -> bool {
-    // TODO: Implement this function to make the tests pass
-    todo!() // This will cause the tests to fail until you implement it
+    a == b
 }
 
 #[cfg(test)]
