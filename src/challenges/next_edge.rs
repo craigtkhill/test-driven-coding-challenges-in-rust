@@ -1,6 +1,5 @@
 pub fn next_edge(side1: i32, side2: i32) -> i32 {
-    // TODO: Implement this function to make the tests pass
-    todo!() // This will cause the tests to fail until you implement it
+    side1 + side2 - 1
 }
 
 #[cfg(test)]
