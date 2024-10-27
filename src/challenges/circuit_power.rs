@@ -1,6 +1,5 @@
 pub fn circuit_power(voltage: i32, current: i32) -> i32 {
-    // TODO: Implement this function to make the tests pass
-    todo!() // This will cause the tests to fail until you implement it
+    voltage * current
 }
 
 #[cfg(test)]
