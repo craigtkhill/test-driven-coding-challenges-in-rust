@@ -1,6 +1,5 @@
 pub fn convert(minutes: i32) -> i32 {
-    // TODO: Implement this function to make the tests pass
-    todo!() // This will cause the tests to fail until you implement it
+    minutes * 60
 }
 
 #[cfg(test)]
