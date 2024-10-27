@@ -1,7 +1,6 @@
 // src/challenges/addition.rs
 pub fn addition(a: i32, b: i32) -> i32 {
-    // TODO: Implement this function to make the tests pass
-    todo!()
+    a + b
 }
 
 #[cfg(test)]
