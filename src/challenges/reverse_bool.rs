@@ -3,6 +3,7 @@ pub fn reverse(value: bool) -> bool {
         return false;
     }
     true
+    // !value (also works)
 }
 
 #[cfg(test)]
