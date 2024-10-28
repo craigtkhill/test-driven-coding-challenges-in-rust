@@ -8,6 +8,7 @@ pub mod find_perimeter;
 pub mod get_abs_sum;
 pub mod get_word_count;
 pub mod is_same_num;
+pub mod last_dig;
 pub mod less_than_or_equal_to_zero;
 pub mod long_burp;
 pub mod next_edge;
