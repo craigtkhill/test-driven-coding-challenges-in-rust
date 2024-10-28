@@ -1,6 +1,8 @@
 pub fn long_burp(n: usize) -> String {
-    // TODO: Implement this function to make the tests pass
-    todo!() // This will cause the tests to fail until you implement it
+    let bu = String::from("Bu");
+    let r = String::from("r").repeat(n);
+    let p = String::from("p");
+    format!("{}{}{}", bu, r, p)
 }
 
 #[cfg(test)]
