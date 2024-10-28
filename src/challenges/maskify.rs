@@ -1,6 +1,11 @@
 pub fn maskify(input: &str) -> String {
-    // TODO: Implement this function to make the tests pass
-    todo!()
+    if input.len() <= 4 {
+        return input.to_string();
+    }
+
+    let last_four: String = input.chars().skip(input.len() - 4).collect();
+
+    format!("{}{}", "#".repeat(input.len() - 4), last_four)
 }
 
 #[cfg(test)]
