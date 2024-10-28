@@ -4,6 +4,8 @@ pub fn triangle(n: i32) -> i32 {
         triangle_number += n - i
     }
     return triangle_number;
+    // Formula method
+    // return n * (n + 1) / 2;
 }
 
 #[cfg(test)]
