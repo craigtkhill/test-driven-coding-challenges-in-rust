@@ -5,6 +5,7 @@ pub mod circuit_power;
 pub mod convert_hours_minutes;
 pub mod convert_minutes;
 pub mod find_perimeter;
+pub mod get_abs_sum;
 pub mod is_same_num;
 pub mod less_than_or_equal_to_zero;
 pub mod next_edge;
