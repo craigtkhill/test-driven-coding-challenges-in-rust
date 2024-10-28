@@ -1,6 +1,5 @@
 pub fn get_abs_sum(numbers: &[i32]) -> i32 {
-    // TODO: Implement this function to make the tests pass
-    todo!() // This will cause the tests to fail until you implement it
+    numbers.iter().map(|x| x.abs()).sum()
 }
 
 #[cfg(test)]
