@@ -1,6 +1,9 @@
 pub fn triangle(n: i32) -> i32 {
-    // TODO: Implement this function to make the tests pass
-    todo!() // This will cause the tests to fail until you implement it
+    let mut triangle_number: i32 = 0;
+    for i in (0..n).rev() {
+        triangle_number += n - i
+    }
+    return triangle_number;
 }
 
 #[cfg(test)]
