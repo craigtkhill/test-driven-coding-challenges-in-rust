@@ -1,6 +1,5 @@
 pub fn count_words(s: &str) -> usize {
-    // TODO: Implement this function to count words in a string
-    todo!()
+    (s.split(" ")).count()
 }
 
 #[cfg(test)]
