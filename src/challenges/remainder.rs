@@ -1,6 +1,5 @@
 pub fn remainder(x: i32, y: i32) -> i32 {
-    // TODO: Implement this function to make the tests pass
-    todo!() // This will cause the tests to fail until you implement it
+    x % y
 }
 
 #[cfg(test)]
