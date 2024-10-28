@@ -1,6 +1,5 @@
 pub fn last_dig(a: i64, b: i64, c: i64) -> bool {
-    // TODO: Implement this function to make the tests pass
-    todo!()
+    (a * b).to_string().chars().last() == c.to_string().chars().last()
 }
 
 #[cfg(test)]
