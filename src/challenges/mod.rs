@@ -2,6 +2,7 @@
 pub mod add_one;
 pub mod addition;
 pub mod circuit_power;
+pub mod convert_hours_minutes;
 pub mod convert_minutes;
 pub mod find_perimeter;
 pub mod is_same_num;
