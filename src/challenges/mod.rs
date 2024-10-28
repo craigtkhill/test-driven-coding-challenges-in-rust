@@ -7,6 +7,7 @@ pub mod find_perimeter;
 pub mod is_same_num;
 pub mod less_than_or_equal_to_zero;
 pub mod next_edge;
+pub mod remainder;
 pub mod return_true;
 pub mod reverse_bool;
 pub mod squared;
