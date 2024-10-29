@@ -1,6 +1,5 @@
 pub fn less_than_100(a: i32, b: i32) -> bool {
-    // TODO: Implement this function to make the tests pass
-    todo!("Implement less_than_100")
+    (a + b) < 100
 }
 
 #[cfg(test)]
