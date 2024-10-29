@@ -1,4 +1,4 @@
-Write rust tests for the following
+Write rust tests for the following. Do not complete the function, only write the tests
 
 {C++ test code}
 
