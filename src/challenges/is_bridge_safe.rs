@@ -1,5 +1,12 @@
 pub fn is_safe_bridge(bridge: &str) -> bool {
-    todo!("Implement the function")
+    let safe = if bridge.is_empty() {
+        false
+    } else if bridge.split(" ").count() > 1 {
+        false
+    } else {
+        true
+    };
+    return safe;
 }
 
 #[cfg(test)]
