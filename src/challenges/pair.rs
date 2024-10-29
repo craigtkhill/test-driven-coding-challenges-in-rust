@@ -1,5 +1,6 @@
 pub fn pairs(input: (i32, i32)) -> Vec<i32> {
-    todo!() // Implementation to be added later
+    let vector = vec![input.0, input.1];
+    return vector;
 }
 
 #[cfg(test)]
