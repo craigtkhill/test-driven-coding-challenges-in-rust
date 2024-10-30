@@ -7,6 +7,7 @@ pub mod convert_minutes;
 pub mod find_perimeter;
 pub mod get_abs_sum;
 pub mod get_word_count;
+pub mod inches_to_feet;
 pub mod is_bridge_safe;
 pub mod is_same_num;
 pub mod last_dig;
