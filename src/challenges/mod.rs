@@ -16,6 +16,7 @@ pub mod less_than_or_equal_to_zero;
 pub mod long_burp;
 pub mod maskify;
 pub mod next_edge;
+pub mod no_odds;
 pub mod pair;
 pub mod remainder;
 pub mod return_true;
