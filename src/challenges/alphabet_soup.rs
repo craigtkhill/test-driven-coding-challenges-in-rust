@@ -1,5 +1,7 @@
 pub fn alphabet_soup(s: &str) -> String {
-    todo!() // Implementation will be added later
+    let mut chars: Vec<char> = s.chars().collect();
+    chars.sort();
+    chars.into_iter().collect()
 }
 
 #[cfg(test)]
