@@ -1,5 +1,5 @@
 pub fn no_odds(nums: Vec<i32>) -> Vec<i32> {
-    todo!("Remove odd numbers from the vector")
+    nums.iter().filter(|&x| x % 2 == 0).cloned().collect()
 }
 
 #[cfg(test)]
