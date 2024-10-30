@@ -1,5 +1,5 @@
 pub fn inches_to_feet(inches: i32) -> i32 {
-    todo!() // Implementation needed
+    inches / 12
 }
 
 #[cfg(test)]
