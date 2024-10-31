@@ -1,5 +1,21 @@
 pub fn fibonacci(n: u32) -> u64 {
-    todo!()
+    if n == 0 {
+        return 0;
+    }
+    if n == 1 {
+        return 1;
+    }
+
+    let mut prev = 0;
+    let mut current = 1;
+
+    for _ in 2..=n {
+        let next = prev + current;
+        prev = current;
+        current = next;
+    }
+
+    current
 }
 
 #[cfg(test)]
@@ -57,3 +73,13 @@ mod tests {
             "40th Fibonacci number should be 102334155"
         );
     }
+    // Optional test for very large numbers - uncomment if needed
+    #[test]
+    fn test_fibonacci_very_large() {
+        assert_eq!(
+            fibonacci(50),
+            12586269025,
+            "50th Fibonacci number should be 12586269025"
+        );
+    }
+}
