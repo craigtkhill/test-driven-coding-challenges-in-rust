@@ -1,9 +1,9 @@
 pub fn fahrenheit_to_celsius(fahrenheit: f64) -> f64 {
-    todo!()
+    ((fahrenheit - 32 as f64) * 5 as f64) / 9 as f64
 }
 
 pub fn celsius_to_fahrenheit(celsius: f64) -> f64 {
-    todo!()
+    celsius * 9 as f64 / 5 as f64 + 32 as f64
 }
 
 #[cfg(test)]
