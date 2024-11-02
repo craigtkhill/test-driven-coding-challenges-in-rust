@@ -18,6 +18,7 @@ pub mod less_than_100;
 pub mod less_than_or_equal_to_zero;
 pub mod long_burp;
 pub mod maskify;
+pub mod name_string;
 pub mod next_edge;
 pub mod no_odds;
 pub mod pair;
