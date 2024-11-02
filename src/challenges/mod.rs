@@ -21,6 +21,7 @@ pub mod maskify;
 pub mod name_string;
 pub mod next_edge;
 pub mod no_odds;
+pub mod number_of_syllables;
 pub mod pair;
 pub mod remainder;
 pub mod return_true;
