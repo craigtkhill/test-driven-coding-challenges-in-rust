@@ -1,5 +1,5 @@
 pub fn name_string(name: &str) -> String {
-    todo!() // This will cause the test to fail until you implement it
+    name.to_owned() + "Edabit"
 }
 
 #[cfg(test)]
