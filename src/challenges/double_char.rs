@@ -1,5 +1,10 @@
 pub fn double_char(input: &str) -> String {
-    todo!() // This will cause the tests to fail until you implement it
+    let mut dc = "".to_string();
+    for char in input.chars() {
+        dc.push(char);
+        dc.push(char);
+    }
+    dc
 }
 
 #[cfg(test)]
