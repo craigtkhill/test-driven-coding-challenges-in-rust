@@ -2,6 +2,7 @@
 pub mod add_one;
 pub mod addition;
 pub mod alphabet_soup;
+pub mod basketball_points;
 pub mod circuit_power;
 pub mod convert_hours_minutes;
 pub mod convert_minutes;
