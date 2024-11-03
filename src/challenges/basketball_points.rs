@@ -1,5 +1,5 @@
-pub fn points(a: i32, b: i32) -> i32 {
-    (a * 2) + (b * 3)
+pub fn points(two_pointers: i32, three_pointers: i32) -> i32 {
+    (two_pointers * 2) + (three_pointers * 3)
 }
 
 #[cfg(test)]
