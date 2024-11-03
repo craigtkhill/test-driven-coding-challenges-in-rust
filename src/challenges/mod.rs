@@ -7,6 +7,7 @@ pub mod circuit_power;
 pub mod convert_hours_minutes;
 pub mod convert_minutes;
 pub mod double_char;
+pub mod enough_change;
 pub mod fahrenheit_to_celsius;
 pub mod fibonacci;
 pub mod find_perimeter;
