@@ -30,5 +30,6 @@ pub mod pair;
 pub mod remainder;
 pub mod return_true;
 pub mod reverse_bool;
+pub mod sort_nums_ascending;
 pub mod squared;
 pub mod triangular_number_sequence;
