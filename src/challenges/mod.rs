@@ -11,6 +11,7 @@ pub mod enough_change;
 pub mod fahrenheit_to_celsius;
 pub mod fibonacci;
 pub mod find_perimeter;
+pub mod flip_int_bool;
 pub mod get_abs_sum;
 pub mod get_word_count;
 pub mod inches_to_feet;
