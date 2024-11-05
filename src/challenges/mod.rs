@@ -32,4 +32,5 @@ pub mod return_true;
 pub mod reverse_bool;
 pub mod sort_nums_ascending;
 pub mod squared;
+pub mod string_to_bool;
 pub mod triangular_number_sequence;
