@@ -27,6 +27,7 @@ pub mod next_edge;
 pub mod no_odds;
 pub mod number_of_syllables;
 pub mod pair;
+pub mod profitable_gamble;
 pub mod remainder;
 pub mod return_true;
 pub mod reverse_bool;
