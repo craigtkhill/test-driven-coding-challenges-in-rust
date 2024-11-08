@@ -28,6 +28,7 @@ pub mod name_string;
 pub mod next_edge;
 pub mod no_odds;
 pub mod number_of_syllables;
+pub mod oddeven;
 pub mod pair;
 pub mod profitable_gamble;
 pub mod remainder;
