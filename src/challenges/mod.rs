@@ -7,6 +7,7 @@ pub mod circuit_power;
 pub mod convert_hours_minutes;
 pub mod convert_minutes;
 pub mod count_vowels;
+pub mod dividible_by_five;
 pub mod double_char;
 pub mod enough_change;
 pub mod fahrenheit_to_celsius;
