@@ -37,4 +37,5 @@ pub mod reverse_bool;
 pub mod sort_nums_ascending;
 pub mod squared;
 pub mod string_to_bool;
+pub mod sum_polygon_angles;
 pub mod triangular_number_sequence;
