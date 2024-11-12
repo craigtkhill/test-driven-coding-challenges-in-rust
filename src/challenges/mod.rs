@@ -35,6 +35,7 @@ pub mod profitable_gamble;
 pub mod remainder;
 pub mod return_true;
 pub mod reverse_bool;
+pub mod should_serve_drinks;
 pub mod sort_nums_ascending;
 pub mod squared;
 pub mod string_to_bool;
