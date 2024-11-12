@@ -2,6 +2,7 @@
 pub mod add_one;
 pub mod addition;
 pub mod alphabet_soup;
+pub mod amplify_four;
 pub mod array_of_multiples;
 pub mod basketball_points;
 pub mod circuit_power;
